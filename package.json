@@ -1,0 +1,28 @@
+{
+  "name": "myvistage-automation",
+  "version": "1.0.0",
+  "description": "Automation project for MyVistage page",
+  "main": "index.js",
+  "scripts": {
+    "wdio": "set HEADLESS=N&& set Env=STAGE&& wdio run ./wdio.conf.js",
+    "wdio:updateall": "npm i @wdio/browserstack-service@latest @wdio/allure-reporter@latest @wdio/cucumber-framework@latest @wdio/local-runner@latest @wdio/spec-reporter@latest wdio-allure-reporter@latest @wdio/cli@latest --save-dev"
+  },
+  "author": "Fabio Caironi",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.36.0",
+    "@wdio/cli": "^8.36.0",
+    "@wdio/cucumber-framework": "^8.36.0",
+    "@wdio/local-runner": "^8.36.0",
+    "@wdio/spec-reporter": "^8.36.0",
+    "allure-commandline": "^2.28.0",
+    "chromedriver": "^123.0.3",
+    "wdio-allure-reporter": "^0.8.3"
+  },
+  "dependencies": {
+    "@babel/types": "^7.24.0",
+    "@cucumber/cucumber": "^9.0.0",
+    "allure": "^0.0.0",
+    "dotenv": "16.0.3"
+  }
+}

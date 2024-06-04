@@ -1,0 +1,16 @@
+[
+    {
+        "username": "fabio.caironi@santexgroup.com",
+        "password": "Qqwe123!!",
+        "type": "adminUser",
+        "env": "STAGE"
+    },
+
+    {
+        "username": "fabio.caironi@santexgroup.com",
+        "password": "Qqwe123!!",
+        "type": "adminUser",
+        "env": "PROD"
+    }
+
+]
